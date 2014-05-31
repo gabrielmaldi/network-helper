@@ -1,0 +1,58 @@
+# Auto detect text files and perform LF normalization
+*               text=auto
+
+# The above will handle all files not found below
+
+# Documents
+*.doc           diff=astextplain
+*.docx          diff=astextplain
+*.xls           diff=astextplain
+*.xlsx          diff=astextplain
+*.pdf           diff=astextplain
+*.rtf           diff=astextplain
+
+# These files are text and should be normalized (convert CRLF => LF)
+*.css           text
+*.js            text
+*.htm           text
+*.html          text
+*.xml           text
+*.txt           text
+*.ini           text
+*.md            text
+*.sass          text
+*.json          text
+*.java          text
+*.properties    text
+*.cs            text diff=csharp
+*.m             text
+*.h             text
+*.resx          text
+
+# These files are binary and should be left untouched
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.gif           binary
+*.svg           binary
+*.eot           binary
+*.ttf           binary
+*.woff          binary
+*.otf           binary
+*.ico           binary
+*.zip           binary
+*.7z            binary
+*.rar           binary
+*.class         binary
+*.dll           binary
+*.pdb           binary
+
+# Compare .pbxproj files as binary and always merge as union
+*.pbxproj       binary -merge=union
+
+# Custom for Visual Studio
+*.sln           merge=union
+*.csproj        merge=union
+*.vbproj        merge=union
+*.fsproj        merge=union
+*.dbproj        merge=union

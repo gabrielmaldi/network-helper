@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkHelper", "NetworkHelper\NetworkHelper.csproj", "{47BC35B9-9DF2-424A-BEBE-758B1708FA52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{96F3D329-108C-44CD-B586-D1FBD0201C8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AssembliesReferences", "AssembliesReferences", "{299C700B-F0F5-4583-9D60-1C7335C348D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotRas", "DotRas", "{3EE8AC54-32EE-4B36-A4BF-D417BF08D22A}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\AssembliesReferences\DotRas\DotRas.dll = Resources\AssembliesReferences\DotRas\DotRas.dll
+		Resources\AssembliesReferences\DotRas\DotRas.xml = Resources\AssembliesReferences\DotRas\DotRas.xml
+		Resources\AssembliesReferences\DotRas\DotRasVersion.txt = Resources\AssembliesReferences\DotRas\DotRasVersion.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log4Net", "Log4Net", "{54782907-91E4-40E4-B21C-0FE256AEF197}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\AssembliesReferences\Log4Net\log4net.dll = Resources\AssembliesReferences\Log4Net\log4net.dll
+		Resources\AssembliesReferences\Log4Net\log4net.xml = Resources\AssembliesReferences\Log4Net\log4net.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TaskSchedulerManagedWrapper", "TaskSchedulerManagedWrapper", "{9EB8BC4D-4B39-4524-9007-77BA9AA51BC9}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\AssembliesReferences\TaskSchedulerManagedWrapper\Microsoft.Win32.TaskScheduler.dll = Resources\AssembliesReferences\TaskSchedulerManagedWrapper\Microsoft.Win32.TaskScheduler.dll
+		Resources\AssembliesReferences\TaskSchedulerManagedWrapper\Microsoft.Win32.TaskScheduler.xml = Resources\AssembliesReferences\TaskSchedulerManagedWrapper\Microsoft.Win32.TaskScheduler.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{5ABFF428-1409-4815-BF59-6F585F475D62}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\Images\Accept.png = Resources\Images\Accept.png
+		Resources\Images\Add.png = Resources\Images\Add.png
+		Resources\Images\Cancel.png = Resources\Images\Cancel.png
+		Resources\Images\Exit.png = Resources\Images\Exit.png
+		Resources\Images\Information.png = Resources\Images\Information.png
+		Resources\Images\Log.png = Resources\Images\Log.png
+		Resources\Images\NetworkHelper.ico = Resources\Images\NetworkHelper.ico
+		Resources\Images\Remove.png = Resources\Images\Remove.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gabrielmaldi.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = NetworkHelper\\NetworkHelper.csproj
+		SccProjectName1 = NetworkHelper
+		SccLocalPath1 = NetworkHelper
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47BC35B9-9DF2-424A-BEBE-758B1708FA52}.Debug|x86.ActiveCfg = Debug|x86
+		{47BC35B9-9DF2-424A-BEBE-758B1708FA52}.Debug|x86.Build.0 = Debug|x86
+		{47BC35B9-9DF2-424A-BEBE-758B1708FA52}.Release|x86.ActiveCfg = Release|x86
+		{47BC35B9-9DF2-424A-BEBE-758B1708FA52}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{299C700B-F0F5-4583-9D60-1C7335C348D8} = {96F3D329-108C-44CD-B586-D1FBD0201C8C}
+		{5ABFF428-1409-4815-BF59-6F585F475D62} = {96F3D329-108C-44CD-B586-D1FBD0201C8C}
+		{3EE8AC54-32EE-4B36-A4BF-D417BF08D22A} = {299C700B-F0F5-4583-9D60-1C7335C348D8}
+		{54782907-91E4-40E4-B21C-0FE256AEF197} = {299C700B-F0F5-4583-9D60-1C7335C348D8}
+		{9EB8BC4D-4B39-4524-9007-77BA9AA51BC9} = {299C700B-F0F5-4583-9D60-1C7335C348D8}
+	EndGlobalSection
+EndGlobal
