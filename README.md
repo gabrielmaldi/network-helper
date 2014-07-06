@@ -2,7 +2,11 @@
 
 NetworkHelper is a Windows utility that configures your (Windows) VPNs to use split tunneling and sits on the tray and waits for you to connect to or disconnect from them; when this happens, it automatically adds and removes pre-configured routes (using `route add` and `route delete` just like you would using the Command Prompt).
 
-## Usage
+## Getting started
+
+Download a `.zip` file with the latest binaries from the [releases page](https://github.com/gabrielmaldi/network-helper/releases).
+
+### Usage
 
 - [ ] Add an in-depth guide.
 
