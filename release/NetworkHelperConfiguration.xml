@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Vpns>
+    <Vpn>
+      <Name>My VPN name</Name>
+      <DnsSuffix>some.suffix.com</DnsSuffix>
+      <Routes>
+        <Route>
+          <Description>A database server</Description>
+          <DestinationIpAddress>192.168.44.33</DestinationIpAddress>
+        </Route>
+        <Route>
+          <Description>A range of workstations</Description>
+          <DestinationIpAddress>192.168.45.0</DestinationIpAddress>
+          <Mask>255.255.255.0</Mask>
+        </Route>
+      </Routes>
+    </Vpn>
+  </Vpns>
+</Configuration>

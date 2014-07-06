@@ -153,3 +153,6 @@ $RECYCLE.BIN/
 
 # Unnecessary files created by Visual Studio's Add Service Reference, which have a long name and together with the path can be too long for Windows to handle
 **/Service References/*/*.datasource
+
+# Don't ignore release folder
+!/release/
