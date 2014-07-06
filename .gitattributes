@@ -47,9 +47,6 @@
 *.dll           binary
 *.pdb           binary
 
-# Compare .pbxproj files as binary and always merge as union
-*.pbxproj       binary -merge=union
-
 # Custom for Visual Studio
 *.sln           merge=union
 *.csproj        merge=union

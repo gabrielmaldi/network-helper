@@ -41,14 +41,14 @@ namespace NetworkHelper.Utilities
             }
             else
             {
-                Configuration = Serializer.XmlDeserialize<Configuration>(File.ReadAllText(ConfigurationFilePath.Value, Encoding.BigEndianUnicode));
+                Configuration = Serializer.XmlDeserialize<Configuration>(File.ReadAllText(ConfigurationFilePath.Value, Encoding.UTF8));
                 InitializeAndValidateConfigurationAndCreateExampleIfNeeded();
             }
         }
 
         public static void SaveConfiguration()
         {
-            File.WriteAllText(ConfigurationFilePath.Value, Serializer.XmlSerialize(Configuration), Encoding.BigEndianUnicode);
+            File.WriteAllText(ConfigurationFilePath.Value, Serializer.XmlSerialize(Configuration), Encoding.UTF8);
         }
 
         private static void InitializeAndValidateConfigurationAndCreateExampleIfNeeded()
